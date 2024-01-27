@@ -62,6 +62,7 @@ color: #2E2F42;
     color: #2E2F42;
     padding: 24px 0;
     display: block;
+    gap: 40px;
     
 }
 .header_list:hover,
@@ -84,6 +85,7 @@ margin-left: auto;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-right: 0;
 }
 .contacts_link:hover,
 .contacts_link:focus {
@@ -166,7 +168,7 @@ display: flex;
     
 }
 .benefits-list {
-    width: calc((100% - 72px) / 4); 
+    width: calc((100% - 72px) / 4);
 }
 
 .benefits_item {
@@ -175,8 +177,7 @@ display: flex;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    margin-bottom: 18px;
-    
+    margin-bottom: 8px;
 }
 .benefits_text {
     color: #434455;
@@ -189,7 +190,7 @@ display: flex;
 /* section3 */
 .section_team {
 background-color: #F4F4FD;
-padding-top: 120px;
+padding: 120px 0;
 }
 
 .team_title {
@@ -213,21 +214,13 @@ color: #2E2F42;
 .team_card {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4 px;
+    border-radius: 0px 0px 4px 4px;
     
 }
-.card-mark {
+.card {
     padding: 32px 0;
 }
-.card-tom {
-    padding: 32px 0;
-}
-.card-camila {
-    padding: 32px 0;
-}
-.card-daniel {
-    padding: 32px 0;
-}
+
 .team_item {
     color:  #2E2F42;
     font-size: 20px;
@@ -240,6 +233,7 @@ color: #2E2F42;
     
 }
 .team-image {
+    display: block;
     margin-bottom: 32px;
 }
 .team_text {
@@ -266,18 +260,29 @@ color: #2E2F42;
     text-transform: capitalize;
     padding-bottom: 72px;
     margin: 0 auto;
+    margin-bottom: 72px;
 }
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    row-gap: 48px; 
+    row-gap: 48px;
+    column-gap: 24px;
 
 }
 .portfolio-card {
     border: 1px solid #E7E9FC;
     background: #FFF;
     width: calc((100% - 48px) / 3);
+    padding-top: 120px;
+    padding-bottom: 120px;
 } 
+.portfolio-img {
+    display: block;
+}
+.portfolio-div {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+}
 .portfolio_item {
     color:  #2E2F42;
     font-size: 20px;
@@ -285,6 +290,7 @@ color: #2E2F42;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 8px;
 
 }
 .portfolio_text {
@@ -298,6 +304,7 @@ color: #2E2F42;
 .page_footer {
 background-color: #2E2F42;
 padding-left: 156px;
+padding: 100px 0;
 }
 .page_logo {
     font-family: Raleway,sans-serif;
@@ -309,6 +316,7 @@ padding-left: 156px;
     color: #4d5ae5;
     display: inline-block;
     padding-top: 100px;
+    margin-bottom: 16px;
 }
 .page_logo_part {
     color: #F4F4FD;
